@@ -41,7 +41,7 @@ app.use((req,res,next)=>{
     next();
 });
 
-
+//setting security headers
 //set security http headers middleware
 app.use(
     helmet.contentSecurityPolicy({
